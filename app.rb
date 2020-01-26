@@ -3,6 +3,6 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
 	get '/' do
-		"<hl>Hello World</hl>"
+		"<h1>Hello World</h1>"
 	end
 end
